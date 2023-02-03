@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="toggleSwitch">
+      <input type="checkbox" id="toggle-switch" value="Active" />
+      <label for="toggle-switch"></label>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+    </div>
+    <header>
+      <h1>Aliaksandr Rouski</h1>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#">About me</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="./contactPage.html">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile-nav">
+        <a href="#">About me</a>
+        <a href="/projects.html">Projects</a>
+        <a href="#">Skills</a>
+        <a href="./contactPage.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="about-me">
+        <div class="container">
+          <div class="text-container">
+            <h2>About me</h2>
+            <p>
+              Hi! My name is Alex. I'm a junior FrontEnd developer. I live and
+              work in Los Angeles, California.
+            </p>
+            <p>
+              I've recently finish EPAM UpSkill FrontEnd developement school.
+              This school is an educational platform for growing IT specialists,
+              where expert mentors help mentees to improve their skills. It
+              lasts for 7 months and covers all areas in modern frontend
+              development.
+            </p>
+            <p>
+              I'm well organized and passionate, enjoying working in team, easy
+              to communicate, have ability to describe difficult complex
+              concepts in easy to understand terms.
+            </p>
+          </div>
+          <div class="pic-container">
+            <img src="./assets/Prof_pic.jpg" alt="profile photo" />
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <h2 class="my-projects">Projects</h2>
+        <ul>
+          <li><a href="#">Portfolio App</a></li>
+          <!-- <span class="icon icon-bike"></span> -->
+          <li><a href="#">Tennis game</a></li>
+          <li><a href="#">Tennis game</a></li>
+          <li><a href="#">Fotomatik project</a></li>
+          <li><a href="#">Bids4U project</a></li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h2 class="my-skills">Skills</h2>
+        <div class="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

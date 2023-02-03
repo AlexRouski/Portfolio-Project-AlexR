@@ -1,0 +1,14 @@
+ul.contacts {
+  list-style-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg");
+  padding-left: 20px;
+}
+
+.contacts li {
+  padding: 10px;
+}
+
+i {
+  margin-left: 10px;
+  font-size: 20px;
+  vertical-align: bottom;
+}
